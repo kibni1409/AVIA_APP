@@ -1,0 +1,10 @@
+.Body{
+    width: 754px;
+    height: 100vh;
+    margin: 0 auto;
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 103px;
+}

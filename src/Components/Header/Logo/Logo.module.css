@@ -1,0 +1,7 @@
+.Logo{
+    background-image: url("Logo1.svg");
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
