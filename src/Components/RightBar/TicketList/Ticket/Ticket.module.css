@@ -1,10 +1,15 @@
 .Ticket{
-    border: 2px solid fuchsia;
+    border-radius: 15px;
     height: 184px;
     margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 21px #d3d3d6,
+-10px -10px 21px #fff;
 }
 .header{
     padding: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,15 +17,14 @@
 .line{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 10px;
-    border: 2px solid yellowgreen;
 }
 
 .cell{
-    border: 2px solid goldenrod;
     display: flex;
     flex-direction: column;
+    width: 123px;
 }
 .cell_header{
     color: #979797;

@@ -1,21 +1,32 @@
 .Filter{
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 232px;
+    width: 212px;
     height: 252px;
     margin: 0;
     margin-inline-start: 0;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 21px #d3d3d6,
+    -10px -10px 21px #fff
+}
+
+.Filter_checkBoxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 252px;
+    margin: 0;
+    margin-inline-start: 0;
+    padding: 10px;
 }
 
 .input{
     margin-right: 10px;
     transform: scale(1.5);
     cursor: pointer;
-}
-.input:checked{
-    background-color: #61dafb;
 }
 
 .p{
